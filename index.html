@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de moedas</title>
+    <link rel="stylesheet" href="style.css"> <!-- linkando com o arquivo css -->
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title"> <!-- titulo -->
+          Conversor de moedas
+        </h1>
+        <p class="page-subtitle"> <!-- paragrafo -->
+          Descubra os valores das moedas
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    </div>
+    <form action="." method="GET">
+      <select name="selecaoMoedas" id="nomeMoeda">
+        <option  value="dolar">Dolar</option>
+        <option  value="euro">Euro</option>
+        <option  value="pesoA">Peso Argentino</option>
+        <option  value="iene">Iene Japones</option>
+      </select>
+      <input type="text" id="moeda" name="name" value="">
+      <input type="submit" value="Enviar" onclick="SelecionaMoeda()";>
+    </form>
+        <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+    <script src="script.js"></script> <!-- linkando com o arquivo js -->
+</body>
+</html>
