@@ -1,1 +1,3 @@
-Relembrando web e anotando tudo que lembro
+### Coversor de moedas
+* desafio feito pela alura com o obejetivo e treinar a relação entre o js e o html
+

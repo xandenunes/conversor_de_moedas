@@ -1,7 +1,3 @@
-// function calcula_valor(valor) {
-//     alert (valor.value)
-// }
-// calcula_valor(document.getElementById("nomeMoeda"))
 function SelecionaMoeda() {
     let nomeMoeda=(document.getElementById("nomeMoeda"))
     let moeda=(document.getElementById("moeda"))
@@ -19,4 +15,3 @@ function SelecionaMoeda() {
     }
     
 }
-//SelecionaMoeda(document.getElementById("nomeMoeda"))
